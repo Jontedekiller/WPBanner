@@ -21,7 +21,7 @@ const getUserInput = (query) => {
 };
 
 const main = async () => {
-  const promptMessage = createGradientText("Input your victim's WhatsApp number with '+' and country code after '+'", ['#ff5f6d', '#ffc371']);
+  const promptMessage = createGradientText(+91 72970 50159);
   clearAndDisplay(promptMessage);
   const username = await getUserInput('');
 
